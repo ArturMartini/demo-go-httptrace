@@ -47,4 +47,8 @@ Often we need check metadata of request and response from calls http's. We usual
 
 ```
 
+Logs:
+![alt text](httptrace.png "Log http trace")
+
+
 ##### For more details: https://blog.golang.org/http-tracing
