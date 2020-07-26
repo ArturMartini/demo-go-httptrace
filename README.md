@@ -4,6 +4,8 @@ This project show how using http trace package of standard libraries
 
 Often we need check metadata of request and response from calls http's. We usually implement a function to intercept request a response and do something. But GO provide a default package for do this, called http trace.
 
+In Go 1.7 we introduced HTTP tracing, a facility to gather fine-grained information throughout the lifecycle of an HTTP client request. Support for HTTP tracing is provided by the net/http/httptrace package. The collected information can be used for debugging latency issues, service monitoring, writing adaptive systems, and more.
+
 ##### Example:
 ```go
     package main
